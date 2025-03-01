@@ -11,6 +11,7 @@ public static void main(String[] args) {
      while(option != 4){ 
         System.out.println("Escolha uma Opção: ");
         System.out.println("[1]Imprimir Hello World");
+        System.out.println("[2]Imprimir Olá Mundo");
         System.out.println("[4]Sair");
         option = scan.nextInt();
 
@@ -18,6 +19,10 @@ public static void main(String[] args) {
 
             case 1:
                 System.out.println("Hello World: ");
+            break;
+
+            case  2:
+                System.out.println("Olá Mundo"); 
             break;
             
             case 4:
