@@ -12,6 +12,7 @@ public static void main(String[] args) {
         System.out.println("Escolha uma Opção: ");
         System.out.println("[1]Imprimir Hello World");
         System.out.println("[2]Imprimir Olá Mundo");
+        System.out.println("[3]imprimir Hola Que Tal ");
         System.out.println("[4]Sair");
         option = scan.nextInt();
 
@@ -23,6 +24,10 @@ public static void main(String[] args) {
 
             case  2:
                 System.out.println("Olá Mundo"); 
+            break;
+
+            case 3:
+                System.out.println("Hola que tal");
             break;
             
             case 4:
